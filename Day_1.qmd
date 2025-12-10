@@ -1,15 +1,23 @@
 ---
 title: "Ngày 1 - Phân tích số liệu sử dụng R"
 author: "Ba Khuong Cao"
-format:
-  pdf:
-    pdf-engine: lualatex
-    keep-tex: true
-editor: visual
+format: 
+  html:
+    toc: true
+    toc-depth: 3
+    embed-resources: true
+execute:
+  eval: true
+  echo: true
+  warning: false
+  message: false
 ---
 
 ::: callout-important
 ## Ưu điểm
+
+-   Chỉ cần một câu lệnh là có cả bảng kết quả sẵn sàng đưa vào bài báo/luận văn
+
 
 -   Không cần phải phân tích cho từng biến số và đánh tay kết quả vào bảng trình bày kết quả nghiên cứu.
 
@@ -164,7 +172,13 @@ https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0197251
 #| message: false
 #| warning: false
 # Define a base folder path
-data_folder <- "Papers attached with data/HIV incidence among female sex workers"
+data_folder <- "D:/PhD/PhD project/Bloggers/Papers attached with data/HIV incidence among female sex workers"
+```
+
+
+```{r}
+#| message: false
+#| warning: false
 
 # Read CSV 
 hiv_tab_1_data <- read_csv(file.path(data_folder, "data_file_Table_1.csv"))
