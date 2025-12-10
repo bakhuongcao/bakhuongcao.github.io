@@ -1,23 +1,15 @@
 ---
-title: "Ngày 1 - Phân tích số liệu sử dụng R"
+title: "Ngày 2 - Phân tích số liệu sử dụng R"
 author: "Ba Khuong Cao"
-format: 
-  html:
-    toc: true
-    toc-depth: 3
-    embed-resources: true
-execute:
-  eval: true
-  echo: true
-  warning: false
-  message: false
+format:
+  pdf:
+    pdf-engine: lualatex
+    keep-tex: true
+editor: visual
 ---
 
 ::: callout-important
 ## Ưu điểm
-
--   Chỉ cần một câu lệnh là có cả bảng kết quả sẵn sàng đưa vào bài báo/luận văn
-
 
 -   Không cần phải phân tích cho từng biến số và đánh tay kết quả vào bảng trình bày kết quả nghiên cứu.
 
